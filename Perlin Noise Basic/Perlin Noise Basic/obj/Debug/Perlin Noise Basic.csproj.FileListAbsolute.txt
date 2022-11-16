@@ -1,0 +1,10 @@
+E:\Software Development\4 - C# Programming I\Personal Project\Perlin Noise Basic\Perlin Noise Basic\bin\Debug\Perlin Noise Basic.exe.config
+E:\Software Development\4 - C# Programming I\Personal Project\Perlin Noise Basic\Perlin Noise Basic\bin\Debug\Perlin Noise Basic.exe
+E:\Software Development\4 - C# Programming I\Personal Project\Perlin Noise Basic\Perlin Noise Basic\bin\Debug\Perlin Noise Basic.pdb
+E:\Software Development\4 - C# Programming I\Personal Project\Perlin Noise Basic\Perlin Noise Basic\obj\Debug\Perlin Noise Basic.csprojAssemblyReference.cache
+E:\Software Development\4 - C# Programming I\Personal Project\Perlin Noise Basic\Perlin Noise Basic\obj\Debug\Perlin_Noise_Basic.Form1.resources
+E:\Software Development\4 - C# Programming I\Personal Project\Perlin Noise Basic\Perlin Noise Basic\obj\Debug\Perlin_Noise_Basic.Properties.Resources.resources
+E:\Software Development\4 - C# Programming I\Personal Project\Perlin Noise Basic\Perlin Noise Basic\obj\Debug\Perlin Noise Basic.csproj.GenerateResource.cache
+E:\Software Development\4 - C# Programming I\Personal Project\Perlin Noise Basic\Perlin Noise Basic\obj\Debug\Perlin Noise Basic.csproj.CoreCompileInputs.cache
+E:\Software Development\4 - C# Programming I\Personal Project\Perlin Noise Basic\Perlin Noise Basic\obj\Debug\Perlin Noise Basic.exe
+E:\Software Development\4 - C# Programming I\Personal Project\Perlin Noise Basic\Perlin Noise Basic\obj\Debug\Perlin Noise Basic.pdb
