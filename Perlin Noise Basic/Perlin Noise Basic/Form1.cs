@@ -30,14 +30,46 @@ namespace Perlin_Noise_Basic
             {
                 for (int yy = 0; yy < map_height; yy++)
                 {
-                    int value = r.Next(255);
+                    double value = r.Next(100)/100.0;
 
-                    values.SetPixel(xx, yy, Color.FromArgb(value, value, value));
+                    Console.WriteLine("Value is " + value);
+
+                    Color col = GetHeightColor(value);
+
+                    values.SetPixel(xx, yy, col);
                 }
             }
             mainMap.Size = new Size(map_width, map_height);
             mainMap.Image = values;
-            mainMap.Location = new Point((Width - map_width) / 2, (Height - map_height) / 2);
+            mainMap.Location = new Point((Width / 2) - (map_width / 2), (Height / 2) - (map_height / 2));
+        }
+        private Color GetHeightColor(double height)
+        {
+            double level_water = 0.4;
+            double level_sand = 0.5;
+            double level_grass = 0.75;
+            double level_mountain = 0.90;
+
+            if (height <= level_water)
+            {
+                return Color.FromArgb(0, 0, 255);
+            }
+            if (height <= level_sand)
+            {
+                return Color.FromArgb(76, 70, 50);
+            }
+            if (height <= level_grass)
+            {
+                return Color.FromArgb(0, 154, 23);
+            }
+            if (height <= level_mountain)
+            {
+                return Color.FromArgb(136, 140, 141);
+            }
+            else
+            {
+                return Color.FromArgb(255, 255, 255);
+            }
         }
         /*public class Noise2d
         {
